@@ -30,6 +30,8 @@
 ---
 
 ## 🧩 核心功能
+<img width="729" height="483" alt="image" src="https://github.com/user-attachments/assets/c5ea1a73-e629-4d5b-a38f-4a03d693d37d" />
+
 
 ### 👤 用户模块
 - 用户注册 / 登录
@@ -58,3 +60,74 @@
 ---
 
 ## 🏗️ 系统架构
+前端（React / Umi）
+↓
+HTTP 请求（Axios）
+↓
+后端（Spring Boot）
+↓
+业务逻辑层（Service）
+↓
+数据访问层（MyBatis）
+↓
+数据库（MySQL）
+
+
+---
+
+## ⚙️ 核心实现原理
+
+### 1️⃣ 登录认证
+使用 Spring MVC 拦截器（Interceptor）实现登录状态校验：
+- 未登录用户请求被拦截
+- 登录成功后放行接口访问
+
+---
+
+### 2️⃣ 自动组卷算法（核心🔥）
+
+系统根据用户输入条件：
+- 题型
+- 难度
+- 分值
+
+执行流程：
+1. 从题库筛选符合条件的题目
+2. 使用贪心或遗传算法进行组合
+3. 生成完整试卷结构
+4. 返回前端展示并支持导出
+
+---
+
+### 3️⃣ 数据存储设计
+
+主要数据表：
+- `User`（用户表）
+- `QuestionBank`（题库）
+- `QuestionLabels`（标签）
+- `TestPaperHistory`（试卷历史）
+
+---
+
+### 4️⃣ 前后端分离
+
+- 前端负责页面展示与交互
+- 后端提供 RESTful API
+- 使用 CORS 解决跨域问题
+
+---
+
+## 📦 项目运行
+
+### 后端启动
+```bash
+mvn spring-boot:run
+前端启动
+npm install
+npm run dev
+
+## 🚀 快速体验（推荐）
+
+1. 下载 exe 文件（见 Releases）
+2. 双击运行程序
+3. 打开浏览器访问：http://localhost:8080
