@@ -37,11 +37,32 @@
 - 用户注册 / 登录
 - 权限控制（管理员 / 教师）
 - 密码修改
+<img width="520" height="466" alt="image" src="https://github.com/user-attachments/assets/1a13e1d6-e237-4a3c-91cc-1db269fc4d9a" />
+
+  
+### 📚管理员界面
+管理员可以进行对注册人员申请的审核，也可以删除现有人员。
+<img width="911" height="639" alt="image" src="https://github.com/user-attachments/assets/a3ccacad-fba6-4019-9fe1-9cc4c1fe659e" />
+<img width="864" height="663" alt="image" src="https://github.com/user-attachments/assets/12a34955-0842-4d9c-bb90-3be298ccbbbf" />
+
 
 ### 📚 题库管理
 - 题目增删改查
+- <img width="864" height="604" alt="image" src="https://github.com/user-attachments/assets/294c889c-c48c-4d8d-b21e-c1c6ba389987" />
+
+
 - 支持 Excel 批量导入
+<img width="865" height="533" alt="image" src="https://github.com/user-attachments/assets/e6a3ce77-ac27-42b0-bd09-49a0ad0a2c08" />
+
+
 - 题目分类（题型 / 难度 / 知识点）
+<img width="864" height="568" alt="image" src="https://github.com/user-attachments/assets/a98f5a73-7779-4f28-b56a-ee355d88554f" />
+
+
+- 重复题目警告
+<img width="864" height="387" alt="image" src="https://github.com/user-attachments/assets/0485f649-05ea-4b08-aecd-4e2883924042" />
+
+  
 
 ### 🧠 自动组卷（核心功能🔥）
 - 支持按题型、分值、难度生成试卷
@@ -126,8 +147,14 @@ mvn spring-boot:run
 npm install
 npm run dev
 
+---
 ## 🚀 快速体验（推荐）
 
 1. 下载 exe 文件（见 Releases）
+<img width="824" height="687" alt="image" src="https://github.com/user-attachments/assets/3e41889e-430d-40fb-b2db-28a4030edbd6" />
+
 2. 双击运行程序
 3. 打开浏览器访问：http://localhost:8080
+<img width="911" height="639" alt="image" src="https://github.com/user-attachments/assets/ca630959-181d-4677-b9d6-5c0b256a6423" />
+
+
