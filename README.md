@@ -154,7 +154,7 @@ HTTP 请求（Axios）
 <img width="824" height="687" alt="image" src="https://github.com/user-attachments/assets/3e41889e-430d-40fb-b2db-28a4030edbd6" />
 
 2. 双击运行程序
-3. 打开浏览器访问：http://localhost:8080
+3. 打开浏览器访问：http://localhost:81
 <img width="911" height="639" alt="image" src="https://github.com/user-attachments/assets/ca630959-181d-4677-b9d6-5c0b256a6423" />
 
 
