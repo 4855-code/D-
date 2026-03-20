@@ -69,14 +69,23 @@
 - 提供两种组题算法：
   - 贪心算法
   - 遗传算法（优化题目组合）
+<img width="864" height="612" alt="image" src="https://github.com/user-attachments/assets/96825d8a-cd81-4522-b348-8b6629509e9c" />
+
 
 ### 📄 试卷导出
 - 自动生成 Word 格式试卷
 - 包含题目与答案
+<img width="863" height="623" alt="image" src="https://github.com/user-attachments/assets/da26e248-584f-4133-a454-9edfd4be12ac" />
+<img width="864" height="255" alt="image" src="https://github.com/user-attachments/assets/01be4af6-82fa-490b-b44f-d84fade49321" />
+<img width="864" height="693" alt="image" src="https://github.com/user-attachments/assets/e3a6de23-7e91-455d-b261-02a09992d0df" />
+
+
 
 ### 📊 历史记录
 - 保存组卷历史
 - 支持试卷回溯与复用
+<img width="863" height="474" alt="image" src="https://github.com/user-attachments/assets/d8e7539b-ebed-4cb7-98b2-661277c7d476" />
+
 
 ---
 
@@ -138,17 +147,8 @@ HTTP 请求（Axios）
 
 ---
 
-## 📦 项目运行
-
-### 后端启动
-```bash
-mvn spring-boot:run
-前端启动
-npm install
-npm run dev
-
 ---
-## 🚀 快速体验（推荐）
+### 🚀 快速体验（推荐）
 
 1. 下载 exe 文件（见 Releases）
 <img width="824" height="687" alt="image" src="https://github.com/user-attachments/assets/3e41889e-430d-40fb-b2db-28a4030edbd6" />
@@ -157,4 +157,13 @@ npm run dev
 3. 打开浏览器访问：http://localhost:8080
 <img width="911" height="639" alt="image" src="https://github.com/user-attachments/assets/ca630959-181d-4677-b9d6-5c0b256a6423" />
 
+
+## 📦 项目运行
+
+### 后端启动
+```bash
+mvn spring-boot:run
+前端启动
+npm install
+npm run dev
 
